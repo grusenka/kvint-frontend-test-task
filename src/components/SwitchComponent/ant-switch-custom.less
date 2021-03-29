@@ -1,0 +1,21 @@
+.ant-switch-handle {
+  top: 50%;
+  left: -3.5px;
+  width: 24px;
+  height: 24px;
+  transform: translateY(-50%);
+}
+
+.ant-switch-handle::before {
+  background-color: #919191;
+}
+
+.ant-switch-checked {
+  .ant-switch-handle {
+    left: calc(100% - 24px + 3.5px);
+  }
+
+  .ant-switch-handle::before {
+    background-color: #01c8f8;
+  }
+}

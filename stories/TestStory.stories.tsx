@@ -1,6 +1,6 @@
 import React from 'react';
 import { withKnobs } from '@storybook/addon-knobs';
-import TestComponent from '../src/components/TestComponent';
+import SwitchComponent from '../src/components/SwitchComponent';
 
 export default {
   title: 'Тестовая стори',
@@ -12,7 +12,7 @@ export default {
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const TestTaskStory = () => {
-  return <TestComponent />;
+  return <SwitchComponent />;
 };
 
 TestTaskStory.story = {
